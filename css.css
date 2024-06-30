@@ -103,8 +103,11 @@
            }
        }
        
-       @media(max-width:480px){
-       
+       @media(max-width:422px){
+         #myvideo{
+           width: 430px;
+           height: 100%;
+         }
         .container{
           bottom:123rem;
           width: 42vh;
@@ -113,5 +116,12 @@
       
     
     }
+
+     @media (min-width:425px) and (max-width:750px){
+          .container{
+             position: fixed;
+              bottom: 300rem;
+          }
+     }
         
        

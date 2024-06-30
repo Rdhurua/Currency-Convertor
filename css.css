@@ -7,15 +7,27 @@
       justify-content: center;
        align-items: center;
         min-height: 100vh;
-         background-color: #E9A89B;
+         /* background-color: #E9A89B; */
+          overflow: hidden;
+         
  }
+  #myvideo{
+    position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  }
 .container{
+   position:fixed;
+    bottom: 8rem;
     background-color: #fff;
     padding: 2rem;
       border-radius: 1rem;
        min-height: 45vh;
-        width: 40vh;
-    
+        width: 45vh;
+         box-shadow: 1px 2px 4px 3px rgba(149, 0, 255, 0.908);
+       
 }
   form{
      margin: 2rem 0 1rem 0;
@@ -61,7 +73,7 @@
 
     }
     .select-container select{
-         font-size: 1rem;
+         font-size: 0.87rem;
           width: auto;
     } 
     .msg{
@@ -85,4 +97,19 @@
              align-items: center;
            
        }
+       @media(max-width:1023px){
+           .container{
+             bottom: 80rem;
+           }
+       }
+       
+       @media(max-width:430px){
+        .container{
+          bottom:120rem;
+          width: 42vh;
+        }
+      
+    
+    }
+        
        

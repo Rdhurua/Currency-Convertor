@@ -99,12 +99,12 @@
        }
        @media(min-width:768px)and(max-width:1023px){
            .container{
-             bottom: 80rem;
+             top: 8rem;
            }
        }
        
        @media(max-width:422px){
-        
+         
         .container{
            top: 5rem;
           width: 42vh;
@@ -115,9 +115,13 @@
     }
 
      @media (min-width:425px) and (max-width:750px){
+       #myvideo{
+         height: 400vh;
+       }
           .container{
              position: fixed;
               top: 8rem;
+               margin-left: 2rem;
           }
      }
         

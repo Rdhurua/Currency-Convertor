@@ -15,8 +15,8 @@
     position: fixed;
   right: 0;
   bottom: 0;
-  min-width: 100vw;
-  min-height: 100vh;
+  min-width: 100%;
+  min-height: 100%;
   }
 .container{
    position:fixed;
@@ -97,16 +97,18 @@
              align-items: center;
            
        }
-       @media(max-width:1023px){
+       @media(min-width:768px)and(max-width:1023px){
            .container{
              bottom: 80rem;
            }
        }
        
        @media(max-width:480px){
+       
         .container{
-          bottom:120rem;
+          bottom:123rem;
           width: 42vh;
+           margin-left: 7rem;
         }
       
     

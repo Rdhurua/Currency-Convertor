@@ -20,7 +20,7 @@
   }
 .container{
    position:fixed;
-    bottom: 8rem;
+    top: 3rem;
     background-color: #fff;
     padding: 2rem;
       border-radius: 1rem;
@@ -104,12 +104,9 @@
        }
        
        @media(max-width:422px){
-         #myvideo{
-           width: 430px;
-           height: 100%;
-         }
+        
         .container{
-          bottom:123rem;
+           top: 5rem;
           width: 42vh;
            margin-left: 7rem;
         }
@@ -120,7 +117,7 @@
      @media (min-width:425px) and (max-width:750px){
           .container{
              position: fixed;
-              bottom: 300rem;
+              top: 8rem;
           }
      }
         
